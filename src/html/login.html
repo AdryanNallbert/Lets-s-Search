@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box-login">
+            <form action="#">
+                <h1>Entrar</h1>
+                <p id="erro">erro</p>
+                <input type="email" id="email" placeholder="Email">
+                <input type="password" id="senha" placeholder="Senha">
+                <input type="submit" class="btn" id="entrar" value="Entrar" onclick="clicou()">
+                <ul>
+                    <li>Não tem uma conta? <a href="criarConta.html">CRIAR CONTA</a></li>
+                </ul>
+            </form>
+        </div>
+        <div class="lateral">
+            <img src="../../assets/images/cadeado-branco.gif" class="img-lateral" alt="">
+        </div>
+    </div>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>
